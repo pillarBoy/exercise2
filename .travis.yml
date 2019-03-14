@@ -4,5 +4,8 @@ node_js:
 
   - "10"
 
-before_script:
-  - npm install -S mocha@5.0.0 should
+install:
+  - npm install
+  - npm install -g mocha@5.0.0
+
+cache: npm
