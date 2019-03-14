@@ -5,4 +5,4 @@ node_js:
   - "10"
 
 before_script:
-  - npm install -g mocha@5.0.0
+  - npm install -S mocha@5.0.0 should
